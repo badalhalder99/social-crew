@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #eff4f9;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Login page css start:: */
+body.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0c0e12;
+}
+.loginWrap {
+  width: 410px;
+  background: #18181b;
+  border-radius: 8px;
+  border: 1px solid #27272a;
+  padding: 35px 30px;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2px;
+}
+.subtitle {
+  text-align: center;
+  color: white;
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.input-group {
+  position: relative;
+}
+.input-group .password-toggle {
+  position: absolute;
+  top: 16px;
+  right: 14px;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+}
+.input-group input.input {
+  height: 44px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 2px solid transparent;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  color: rgb(91, 112, 111);
+  width: 100%;
+  margin-bottom: 15px;
+  outline: none;
+}
+.input-group input.input2 {
+  margin-bottom: 8px;
+}
+.input-group input.input:focus {
+  border-color: green;
+}
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remember-me {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.remember-me .remember {
+  font-size: 13px;
+  margin-left: 5px;
+}
+.form-options .remember-me {
+  color: white;
+  font-size: 13px;
+}
+.forgot-password {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+}
+.signup-link {
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 25px;
+}
+.signup-link a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #527dc2;
+}
+.signup-link a:hover {
+  text-decoration: underline;
+}
+.forgot-password:hover {
+  text-decoration: underline;
+}
+.login-btn, .google-btn, .facebook-btn {
+  font-size: 14px;
+  color: black;
+  background-color: white;
+  height: 44px;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.login-btn:hover, .google-btn:hover, .facebook-btn:hover{
+  color: white;
+  background-color: #0c0e12;
+  border: 1px solid #fff;
+}
+.google-btn {
+  margin-top: 15px;
+  background: #df4732;
+  color: white;
+}
+.google-btn i{
+  margin-right: 15px;
+}
+.facebook-btn {
+  margin-top: 15px;
+  background: #527dc2;
+  color: white;
+}
+.facebook-btn i{
+  margin-right: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
+  .loginWrap {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  body.loginPage {
+    padding: 25px 15px;
+  }
+
+  .input-group input.input {
+    margin-bottom: 12px;
+  }
+
+  .google-btn,
+  .facebook-btn {
+    margin-top: 12px;
+  }
+}
+
+/* Login page css End:: */
+
+@media (min-width: 1320px) and (max-width: 1900px) {}
+
+@media (min-width: 1024px) and (max-width: 1320px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 540px) and (max-width: 767px) {}
+
+@media (min-width: 540px) and (max-width: 767px) {}
+
+@media (min-width: 480px) and (max-width: 540px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {}
