@@ -181,6 +181,41 @@ body.loginPage {
 }
 
 /* Login page css End:: */
+/* Register page css start:: */
+body.registerPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0c0e12;
+}
+.rules {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #ddd;
+}
+.registerWrap {
+  width: 450px;
+  background: #18181b;
+  border-radius: 8px;
+  border: 1px solid #27272a;
+  padding: 35px 30px;
+}
+@media (min-width: 450px) and (max-width: 480px) {
+  body.registerPage {
+    padding: 25px 15px;
+  }
+}
+@media (min-width: 320px) and (max-width: 450px) {
+  .registerWrap {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  body.registerPage {
+    padding: 25px 15px;
+  }
+}
+/* Register page css end:: */
 
 @media (min-width: 1320px) and (max-width: 1900px) {}
 
