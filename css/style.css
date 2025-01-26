@@ -76,7 +76,7 @@ body.loginPage {
   outline: none;
 }
 .input-group input.input2 {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 .input-group input.input:focus {
   border-color: green;
@@ -239,6 +239,12 @@ body.registerPage {
   font-size: 15px;
   margin-bottom: 25px;
 }
+.new-password-instruction {
+  color: #ddd;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
 .forget-subtitle2 {
   margin-bottom: 10px;
 }
@@ -252,6 +258,55 @@ body.registerPage {
 .signup-link a.resend:hover {
   text-decoration: none;
   color: white;
+}
+.new-subtitle {
+  margin-bottom: 15px;
+}
+.pass-instruction {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pass-icon-wrap {
+  width: 20px;
+  height: 20px;
+  border-radius: 25px;
+  background: #272378;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pass-icon-wrap i{
+  color: white;
+  font-size: 12px;
+}
+.pass-instruction-top {
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.success-subtitle {
+  color: rgb(18, 214, 18);
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.success-subtitle .success-icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+@media (min-width: 320px) and (max-width: 350px) {
+  .success-subtitle {
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .success-subtitle .success-icon {
+    font-size: 16px;
+  }
 }
 /* forgot page css end:: */
 
