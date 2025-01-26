@@ -217,6 +217,44 @@ body.registerPage {
 }
 /* Register page css end:: */
 
+/* forgot page css start:: */
+.forget-title {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.reset-password {
+  margin-top: 0px;
+  text-decoration: none;
+}
+.open-email {
+  margin-top: 0px;
+  text-decoration: none;
+}
+.forget-subtitle {
+  color: #ddd;
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.forget-subtitle2 {
+  margin-bottom: 10px;
+}
+.forgetMail {
+  font-weight: 500;
+}
+.signup-link a.resend {
+  color: #527dc2;
+  text-decoration: underline;
+}
+.signup-link a.resend:hover {
+  text-decoration: none;
+  color: white;
+}
+/* forgot page css end:: */
+
 @media (min-width: 1320px) and (max-width: 1900px) {}
 
 @media (min-width: 1024px) and (max-width: 1320px) {}
